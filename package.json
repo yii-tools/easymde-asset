@@ -1,0 +1,8 @@
+{
+    "name": "easymde-asset",
+    "version": "1.0.0",
+    "dependencies": {
+        "easymde": "^2.18.0"
+    },
+    "license": "mit"
+}
