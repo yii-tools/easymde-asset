@@ -14,7 +14,7 @@ final class CdnAssetProvider
     public static function assetBundles(): array
     {
         return [
-            ['Css', Assets\MarkDownEditorCdn::class],
+            ['Css', Assets\EasyMDECdn::class],
         ];
     }
 }
