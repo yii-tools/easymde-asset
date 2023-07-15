@@ -8,9 +8,9 @@ use Yiisoft\Assets\AssetBundle;
 use Yiisoft\Files\PathMatcher\PathMatcher;
 
 /**
- * Production asset bundle for the MarkDownEditor widget.
+ * Production asset bundle for the EasyMDE widget.
  */
-final class MarkDownEditorProd extends AssetBundle
+final class EasyMDEProd extends AssetBundle
 {
     public string|null $basePath = '@assets';
     public string|null $baseUrl = '@assetsUrl';

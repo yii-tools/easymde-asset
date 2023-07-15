@@ -14,8 +14,8 @@ final class NpmAssetProvider
     public static function assetBundles(): array
     {
         return [
-            ['Css', Assets\MarkDownEditor::class],
-            ['Css', Assets\MarkDownEditorProd::class],
+            ['Css', Assets\EasyMDE::class],
+            ['Css', Assets\EasyMDEProd::class],
         ];
     }
 }

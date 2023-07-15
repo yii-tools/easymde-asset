@@ -7,9 +7,9 @@ namespace Yii\Assets;
 use Yiisoft\Assets\AssetBundle;
 
 /**
- * Content delivery network asset bundle for the MarkDownEditor widget.
+ * Content delivery network asset bundle for the EasyMDE widget.
  */
-final class MarkDownEditorCdn extends AssetBundle
+final class EasyMDECdn extends AssetBundle
 {
     public bool $cdn = true;
     public array $css = ['https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css'];
